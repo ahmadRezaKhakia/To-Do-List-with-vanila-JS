@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    max-width: 500px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    padding: 30px 0px;
+    color: #2980b9;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#search-form input[type = "text"]{
+    padding: 10px;
+    width: 100%;
+    font-size: 1.3em;
+    border: none;
+    background-color:black;
+    outline: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+#to-do-list{
+   padding-left: 0;
+}
+
+#to-do-list li{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.delete-btn{
+    background-color: tomato;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-do{
+    padding-top: 30px;
+}
+
+#add-form{
+    display: flex;
+}
+
+#add-form input[type = "text"]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3em;
+    border: none;
+    background-color:black;
+    outline: none;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+#add-form button{
+    background-color:black;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 10px;
+    color:red;
+    margin-left: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3em;
+}
